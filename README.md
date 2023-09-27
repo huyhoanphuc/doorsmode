@@ -339,9 +339,9 @@ end)
 
 
 
-    Singleplayer = fals -- Runs more Then 1 Player Code
+    Singleplayer = false -- Runs more Then 1 Player Code
 else
-    print("Loaded in print Multiplayer") -- loaded in 1 player
+    print("Loaded in print Singleplayer") -- loaded in 1 player
     repeat task.wait()
 
     until game:GetService("ReplicatedStorage").GameData.LatestRoom.Value > 0
